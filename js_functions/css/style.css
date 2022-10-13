@@ -1,0 +1,9 @@
+.black_mode {
+  background-color: black;
+}
+
+.img_slider {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
