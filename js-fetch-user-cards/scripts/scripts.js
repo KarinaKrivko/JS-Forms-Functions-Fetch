@@ -1,6 +1,6 @@
 const cards_container = document.querySelector('.cards_container');
 
-function narisovat(users) {
+function draw(users) {
 
 users.forEach(user => {
 
@@ -34,5 +34,5 @@ cards_container.append(item);
 
 fetch(`https://jsonplaceholder.typicode.com/todos`)
 .then(resp => resp.json()) 
-.then(json => narisovat(json)) 
+.then(json => draw(json)) 
 
